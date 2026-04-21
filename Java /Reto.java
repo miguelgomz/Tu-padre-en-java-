@@ -28,6 +28,6 @@ String nombre_comp=a+""+b;
 
 return nombre_comp;
 
-
+//hsh
    }
 }
