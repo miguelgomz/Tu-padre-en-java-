@@ -2,11 +2,8 @@ class Pelicula{
     String titulo;
     int año;
     int duracion;
-
-    String tituloo;
-    int añoo;
-    int duracioon;
 }
+
 public class Peliculas {
     public static void main(String[] args) {
 
@@ -18,19 +15,19 @@ public class Peliculas {
 
         Pelicula mi_peliculaa = new Pelicula();
 
-        mi_peliculaa.tituloo="Transformers 2  ";
-        mi_peliculaa.añoo=2007;
-        mi_peliculaa.duracioon=95;
+        mi_peliculaa.titulo="Transformers 2  ";
+        mi_peliculaa.año=2007;
+        mi_peliculaa.duracion=95;
 
         System.out.println("Hola esto son lo sdato s"+mi_pelicula.titulo);
         System.out.println("Hola esto son lo sdato s"+mi_pelicula.año);
         System.out.println("Hola esto son lo sdato s"+mi_pelicula.duracion);
 
-        System.out.println("Hola esto son lo sdato s"+mi_peliculaa.tituloo);
-        System.out.println("Hola esto son lo sdato s"+mi_peliculaa.añoo);
-        System.out.println("Hola esto son lo sdato s"+mi_peliculaa.duracioon);
+        System.out.println("Hola esto son lo sdato s"+mi_peliculaa.titulo);
+        System.out.println("Hola esto son lo sdato s"+mi_peliculaa.año);
+        System.out.println("Hola esto son lo sdato s"+mi_peliculaa.duracion);
 
-        int duracion_ambas=mi_pelicula.duracion +mi_peliculaa.duracioon;
+        int duracion_ambas=mi_pelicula.duracion +mi_peliculaa.duracion;
 
          System.out.println("Hola esta es la duracion de ambas"+ duracion_ambas);
 
