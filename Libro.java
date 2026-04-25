@@ -10,6 +10,7 @@ class Libros{
     Libros (String Refrenciaa_titulo ){
         this.titulo=Refrenciaa_titulo;
         this.paginas=100;
+
     }
 }
 
